@@ -21,9 +21,8 @@ Algoritmo desejado, o arquivo de entrada(vetor a ser ordenado) e a saída(vetor 
     $ make IN="example.in" ALG="1" run
 ```
 ### Utilizando Script
-- Também é possível executar pelo script, basta fazer:
+- Também é possível compilar/executar pelo script, tomando como exemplo o algoritmo merge sort, arquivo entrada (example.in) e arquivo saída (saida.out), basta fazer:
 <br/>
-Tomando como exemplo o algoritmo: 3, arquivo entrada: example.in e arquivo saída: saida.out
 ```sh
     $ bash script.sh 3 < example.in > saida.out
 ```
@@ -33,3 +32,5 @@ Tomando como exemplo o algoritmo: 3, arquivo entrada: example.in e arquivo saíd
     $ javac Main.java
     $ java Main 3 < example.in > saida.out
 ```
+## Padrões para teste
+Seguem o padrão do arquivo "example.in", ou seja, o primeiro valor determina a quantidade de elementos do vetor e cada valor do vetor está apos uma quebra de linha.
