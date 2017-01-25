@@ -33,4 +33,4 @@ Algoritmo desejado, o arquivo de entrada(vetor a ser ordenado) e a saída(vetor 
     $ java Main 3 < example.in > saida.out
 ```
 ## Padrões para teste
-Seguem o padrão do arquivo "example.in", ou seja, o primeiro valor determina a quantidade de elementos do vetor e cada valor do vetor está apos uma quebra de linha.
+Seguem o padrão do arquivo "example.in" no dir "src", ou seja, o primeiro valor determina a quantidade de elementos do vetor e cada valor do vetor está apos uma quebra de linha.
