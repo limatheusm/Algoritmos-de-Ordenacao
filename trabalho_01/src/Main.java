@@ -9,21 +9,6 @@ public class Main {
     public static void main(String args[]){
         int choise = Integer.parseInt(args[0]);
 
-        // //Lendo arquivo entrada.in
-        // ArrayList<Integer> list = new ArrayList<>();
-
-        // Scanner scanner = new Scanner(System.in);
-        // while (scanner.hasNext()) {
-        //     list.add(Integer.parseInt(scanner.next()));
-        // }
-        // scanner.close();
-
-        // Integer[] array = new Integer[list.size()];
-        // array = list.toArray(array);
-        // System.out.println("size "+array.length);
-
-
-
         BufferedReader inReader =
                        new BufferedReader(new InputStreamReader(System.in));
         String line;
