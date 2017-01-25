@@ -41,10 +41,7 @@ public class Main {
 
             //Exibe vetor ordenado
             for (int i = 0; i < array.length; i++) {
-                if(i == size-1)
-                    System.out.print(array[i]);
-                else
-                    System.out.println(array[i]);
+                 System.out.println(array[i]);
             }
 
             //Verifica se esta ordenado
