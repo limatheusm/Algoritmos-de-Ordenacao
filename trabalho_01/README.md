@@ -2,6 +2,7 @@
 
 ## Instruções
 - Execute o makefile e passe como parâmetros:
+<br/>
 algoritmo desejado, o arquivo de entrada(vetor a ser ordenado) e a saída(vetor ordenado).
 ```sh
     $ make ALG="1" IN="example.in" OUT="saida.out"
@@ -13,6 +14,7 @@ algoritmo desejado, o arquivo de entrada(vetor a ser ordenado) e a saída(vetor 
 ```
 
 - Também é possível executar pelo script, basta fazer:
+<br/>
 Pegando como exemplo o algoritmo: 3, arquivo entrada: example.in e arquivo saída: saida.out
 ```sh
     $ bash script.sh 3 < example.in > saida.out
